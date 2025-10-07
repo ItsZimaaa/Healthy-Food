@@ -31,7 +31,7 @@ export default function Features() {
     return (
         <div className='flex flex-col items-center'>
             <span>
-                <h1 className='text-[#DC780B] text-[16px]'>Features</h1>
+                <h1 className='heading2'>Features</h1>
                 <h1 className='heading'>Food with a New Passion</h1>
             </span>
 

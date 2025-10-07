@@ -8,6 +8,14 @@
     @apply font-bold text-[30px] text-[#150C01] 
 }
 
+.heading2 {
+    @apply text-[#DC780B] text-[16px]
+}
+
 .paragraph {
     @apply opacity-40 text-[16px]
+}
+
+body {
+    
 }

@@ -5,7 +5,7 @@ import { FaPhone } from "react-icons/fa6";
 
 export default function Navbar() {
     return (
-        <nav className='flex justify-between items-center py-4 position sticky top-0 bg-white z-10'>
+        <nav className='flex justify-between items-center py-4 position sticky top-0 z-10'>
 
             <button className='md:hidden text-[18px] hover:text-[#DC780B]'><TiThMenu /></button>
 
