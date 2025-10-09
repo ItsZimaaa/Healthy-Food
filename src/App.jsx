@@ -5,6 +5,7 @@ import AboutUs from "./components/AboutUs";
 import Menu from "./components/Menu";
 import TakeAway from "./components/TakeAway";
 import Testimonial from "./components/Testimonial";
+import Contact from "./components/Contact";
 
 export default function App() {
   return (
@@ -34,6 +35,10 @@ export default function App() {
 
       <div>
         <Testimonial />
+      </div>
+
+      <div>
+        <Contact />
       </div>
     </main>
   )

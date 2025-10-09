@@ -16,6 +16,6 @@
     @apply opacity-40 text-[16px]
 }
 
-body {
-    
+.input {
+    @apply w-[500px] ease-in-out duration-200 px-8 py-2 border-2 border-gray-200 rounded-2xl active:scale-95 hover:brightness-90;
 }
