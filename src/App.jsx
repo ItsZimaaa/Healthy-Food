@@ -6,6 +6,7 @@ import Menu from "./components/Menu";
 import TakeAway from "./components/TakeAway";
 import Testimonial from "./components/Testimonial";
 import Contact from "./components/Contact";
+import Footer from "./components/Footer";
 
 export default function App() {
   return (
@@ -39,6 +40,10 @@ export default function App() {
 
       <div>
         <Contact />
+      </div>
+
+      <div>
+        <Footer />
       </div>
     </main>
   )
