@@ -1,7 +1,7 @@
 import aboutUs from '../assets/aboutUs.jpg'
 export default function Home() {
     return (
-        <div className="md:w-[100%] w-[100%] h-[650px] mx-auto flex flex-col md:flex-row items-center gap-10 my-20 ">
+        <div className="md:w-[100%] w-[100%] h-[650px] mx-auto flex flex-col md:flex-row items-center gap-10 my-20 paddingY-2 bg-[#fcf2e7] ">
             <img
                 src={aboutUs}
                 alt="About Us"

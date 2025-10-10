@@ -2,7 +2,7 @@ import heroImg from "../assets/main.png"
 
 export default function Home() {
     return (
-        <div className="md:w-[100%] w-[100%] md:h-[400px] mx-auto flex flex-col md:flex-row items-center gap-10 my-20 ">
+        <div className="w-full md:flex justify-between items-center paddingY-2">
             <div className="flex flex-col gap-6 my-10 md:w-[80%] w-full">
                 <h1 className="font-bold text-4xl md:w-[500px]">Making time a good time by making food the good food.</h1>
                 <p className="opacity-40 text-[16px]">There are many things are needed to start the Fast Food Business. You need not only Just Food Stalls with Persons but also specialized equipment,</p>

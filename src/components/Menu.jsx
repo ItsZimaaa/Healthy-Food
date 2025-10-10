@@ -64,7 +64,7 @@ const productCardImages = [
 
 export default function Menu() {
     return (
-        <div className='w-full flex flex-col items-center my-20 gap-4'>
+        <div className='w-full flex flex-col items-center my-20 gap-4 paddingY-2'>
             <div className='md:w-[750px] flex flex-col items-center text-center gap-4'>
                 <h1 className='text-[#DC780B]'>Menu</h1>
                 <h2 className='heading'>Food Full of treaty Love</h2>

@@ -29,7 +29,7 @@ const cardInfo = [
 
 export default function Features() {
     return (
-        <div className='flex flex-col items-center'>
+        <div className='flex flex-col items-center paddingY-2' >
             <span>
                 <h1 className='heading2'>Features</h1>
                 <h1 className='heading'>Food with a New Passion</h1>

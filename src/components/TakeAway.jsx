@@ -4,7 +4,7 @@ import { FaGooglePlay } from "react-icons/fa";
 
 export default function TakeAway() {
   return (
-    <div className='md:flex justify-between px-2 items-center my-20 gap-10'>
+    <div className='md:flex justify-between items-center gap-10 paddingY-2 py-20 bg-[#fcf2e7]'>
       <div className='flex flex-col gap-6 md:w-[500px]'>
         <span>
           <h1 className='heading2'>Take away</h1>

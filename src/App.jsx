@@ -10,41 +10,24 @@ import Footer from "./components/Footer";
 
 export default function App() {
   return (
-    <main className="w-[80%] mx-auto"> 
+    <main>
       <Navbar />
 
-      <div>
-        <Home />
-      </div>
+      <Home />
 
-      <div className="flex flex-col items-center">
-        <Features />
-      
-      </div>
+      <Features />
 
-      <div>
-        <AboutUs />
-      </div>
+      <AboutUs />
 
-      <div>
-        <Menu />
-      </div>
+      <Menu />
 
-      <div>
-        <TakeAway />
-      </div>
+      <TakeAway />
 
-      <div>
-        <Testimonial />
-      </div>
+      <Testimonial />
 
-      <div>
-        <Contact />
-      </div>
+      <Contact />
 
-      <div>
-        <Footer />
-      </div>
+      <Footer />
     </main>
   )
 }
